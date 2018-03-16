@@ -1,3 +1,3 @@
-module "rsc.io/quote"
+module "github.com/airylinus/quote"
 
-require "rsc.io/sampler" v1.3.0
+require "github.com/airylinus/sampler" v1.3.1

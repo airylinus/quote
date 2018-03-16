@@ -3,13 +3,13 @@
 // license that can be found in the LICENSE file.
 
 // Package quote collects pithy sayings.
-package quote // import "rsc.io/quote"
+package quote // import "github.com/airylinus/quote"
 
-import "rsc.io/sampler"
+import "github.com/airylinus/sampler"
 
 // Hello returns a greeting.
 func Hello() string {
-	return sampler.Glass()
+	return sampler.Glass() + "v1.6.1"
 }
 
 // Glass returns a useful phrase for world travelers.
